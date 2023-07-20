@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_karyawans",
+  "info": {
+    "singularName": "data-karyawan",
+    "pluralName": "data-karyawans",
+    "displayName": "Data Karyawan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "alamat": {
+      "type": "string"
+    },
+    "tempat_lahir": {
+      "type": "string"
+    },
+    "tgl_lahir": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "fic6-tugas",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.5",
+    "@strapi/plugin-users-permissions": "4.11.5",
+    "@strapi/strapi": "4.11.5",
+    "midtrans-client": "^1.3.1",
+    "mysql": "2.18.1"
+  },
+  "author": "A Strapi developer",
+  "strapi": {
+    "uuid": "4de2d2cd-b521-4289-8d76-95397bfce9c5"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js"
+}
