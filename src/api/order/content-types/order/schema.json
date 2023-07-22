@@ -27,7 +27,7 @@
     "deliveryAddress": {
       "type": "string"
     },
-    "status": {
+    "statusOrder": {
       "type": "enumeration",
       "enum": [
         "waitingPayment",
